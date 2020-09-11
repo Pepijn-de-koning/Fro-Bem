@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="nl" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Pepijn de Koning">
+    <link rel="stylesheet" href="../css/level-style.css">
+    <link rel="stylesheet" href="../css/modaal-style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="stylesheet">
+    <title>Alkmaar</title>
+  </head>
+  <body>
+
+    <main>
+      <nav>
+        <p class="punten">0</p>
+        <p class="informatie">i</p>
+      </nav>
+
+      <a href="level-3.html"><img src="../images/Image2.png"></a>
+
+    <div class="footer">
+      <button id="button">Opdracht</button>
+
+      <div id="opdracht" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>
+            De opdracht is om het waagplein in Alkmaar te vinden.
+            Dit doe je door op de foto's te klikken
+          </p>
+        </div>
+      </div>
+    </div>
+
+      <script>
+        var modal = document.getElementById("opdracht");
+        var btn = document.getElementById("button");
+        var span = document.getElementsByClassName("close")[0];
+
+        btn.onclick = function() {
+          modal.style.display = "block";
+        }
+
+        span.onclick = function() {
+          modal.style.display = "none";
+        }
+
+        window.onclick = function(event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        }
+      </script>
+    </main>
+
+  </body>
+</html>

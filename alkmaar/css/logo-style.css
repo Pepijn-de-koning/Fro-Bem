@@ -1,0 +1,8 @@
+body{
+  background-color: #ffffff;
+  background-image: url("../images/Logo.png");
+  background-repeat: no-repeat;
+  background-size: 250px;
+  background-position: center;
+  margin-top: 550px;
+}
