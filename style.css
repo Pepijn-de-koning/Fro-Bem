@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap");
+
+/* overall */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Josefin sans;
+  scroll-behavior: "smooth";
+}
+/* end overall */
+
+/* figuren */
+.figuren {
+  margin-top: -400px;
+}
+
+.balk {
+  margin-top: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+/* end figuren */
+
+/* landdingspage */
+.home-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin: auto;
+}
+
+.banner {
+  background-color: #fbbb00;
+  padding: 250px 0px 250px 0px;
+}
+/* end landdingspage */
+
+/* about */
+.headers {
+  font-size: 24px;
+  margin-top: 48px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.yellow {
+  color: #fbbb00;
+}
+
+.red {
+  color: #ec7243;
+}
+/* end about */
+
+
+/* cases */
+.cases {
+  font-size: 170px;
+  text-align: left;
+  margin-top: -105px;
+}
+
+/* Cases */
+.cases-imgs {
+  display: grid;
+  grid-template-areas:
+    "pic1 pic1 pic2 pic2 pic3 pic3"
+    "pic1 pic1 pic4 pic4 pic3 pic3"
+    "pic5 pic5 pic4 pic4 pic6 pic6"
+    "pic7 pic7 pic8 pic8 pic9 pic9"
+    "pic7 pic7 pic10 pic10 pic9 pic9";
+  grid-gap: 5%;
+  padding: 10px;
+  justify-items: center;
+  padding-bottom: 15em;
+}
+.case-pic1 {
+  grid-area: pic1;
+}
+.case-pic2 {
+  grid-area: pic2;
+}
+.case-pic3 {
+  grid-area: pic3;
+}
+.case-pic4 {
+  grid-area: pic4;
+}
+.case-pic5 {
+  grid-area: pic5;
+}
+.case-pic6 {
+  grid-area: pic6;
+}
+.case-pic7 {
+  grid-area: pic7;
+}
+.case-pic8 {
+  grid-area: pic8;
+}
+.case-pic9 {
+  grid-area: pic9;
+}
+.case-pic10 {
+  grid-area: pic10;
+}
+
+/* End Cases */
+/* end cases */
+
+/* video */
+.video-section {
+  background-image: url("images/background.png");
+  padding: 50px 0px 50px 0px;
+  width: 100%;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+}
+
+.width {
+  width: 50%;
+}
+
+.video-background {
+  width: 100%;
+}
+/* end video */
+
+/* footer */
+.footer {
+  display: flex;
+}
+
+.geelvlak {
+  padding: 1em;
+  background-color: #fbbb00;
+  width: 60%;
+  max-height: 254px;
+  display: grid;
+  color: white;
+}
+
+.geelvlak p {
+  padding-top: 1em;
+}
+
+.footer-text {
+  padding-top: 3em;
+  padding-left: 5%;
+  max-width: 30%;
+  min-width: 160px;
+}
+
+.klein-logo {
+  height: 254px;
+  margin-left: -128px;
+}
+
+.footer-text-strook {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.footer-contact-text {
+  display: flex;
+  word-spacing: 30px;
+}
+/* End Footer */

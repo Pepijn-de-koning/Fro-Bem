@@ -1,0 +1,31 @@
+{
+  "name": "byellow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "build": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pepijn-de-koning/Byellow.git"
+  },
+  "author": "Rowan van Zijl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pepijn-de-koning/Byellow/issues"
+  },
+  "homepage": "https://github.com/Pepijn-de-koning/Byellow#readme",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "package.json": "^2.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "tailwindcss": "^1.8.10"
+  }
+}
