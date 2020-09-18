@@ -13,11 +13,11 @@ body {
 /* end overall */
 
 /* figuren */
-.figuren {
+.body__figuren {
   margin-top: -400px;
 }
 
-.balk {
+.bosy__balk {
   margin-top: 10px;
   display: flex;
   align-items: flex-start;
@@ -38,40 +38,43 @@ body {
   margin: auto;
 }
 
-.banner {
+.container__banner {
   background-color: #fbbb00;
   padding: 250px 0px 250px 0px;
 }
 /* end landdingspage */
 
 /* about */
-.headers {
+.container__headers {
   font-size: 24px;
   margin-top: 48px;
+}
+
+.container__width {
+  width: 50%;
 }
 
 p {
   font-size: 16px;
 }
 
-.yellow {
+.container__color__yellow{
   color: #fbbb00;
 }
 
-.red {
+.container__color__red {
   color: #ec7243;
 }
 /* end about */
 
 
 /* cases */
-.cases {
+.container__cases {
   font-size: 170px;
   text-align: left;
   margin-top: -105px;
 }
 
-/* Cases */
 .cases-imgs {
   display: grid;
   grid-template-areas:
@@ -85,67 +88,59 @@ p {
   justify-items: center;
   padding-bottom: 15em;
 }
-.case-pic1 {
+.case__pic1 {
   grid-area: pic1;
 }
-.case-pic2 {
+.case__pic2 {
   grid-area: pic2;
 }
-.case-pic3 {
+.case__pic3 {
   grid-area: pic3;
 }
-.case-pic4 {
+.case__pic4 {
   grid-area: pic4;
 }
-.case-pic5 {
+.case__pic5 {
   grid-area: pic5;
 }
-.case-pic6 {
+.case__pic6 {
   grid-area: pic6;
 }
-.case-pic7 {
+.case__pic7 {
   grid-area: pic7;
 }
-.case-pic8 {
+.case__pic8 {
   grid-area: pic8;
 }
-.case-pic9 {
+.case__pic9 {
   grid-area: pic9;
 }
-.case-pic10 {
+.case__pic10 {
   grid-area: pic10;
 }
 
 /* End Cases */
-/* end cases */
+
 
 /* video */
-.video-section {
+.video__section {
   background-image: url("images/background.png");
   padding: 50px 0px 50px 0px;
   width: 100%;
 }
 
-.video {
+.container__video {
   display: flex;
   justify-content: center;
-}
-
-.width {
-  width: 50%;
-}
-
-.video-background {
-  width: 100%;
 }
 /* end video */
 
 /* footer */
-.footer {
+.container__footer {
   display: flex;
 }
 
-.geelvlak {
+.container__geelvlak {
   padding: 1em;
   background-color: #fbbb00;
   width: 60%;
@@ -154,28 +149,28 @@ p {
   color: white;
 }
 
-.geelvlak p {
+.container__geelvlak p {
   padding-top: 1em;
 }
 
-.footer-text {
+.footer__text {
   padding-top: 3em;
   padding-left: 5%;
   max-width: 30%;
   min-width: 160px;
 }
 
-.klein-logo {
+.klein__logo {
   height: 254px;
   margin-left: -128px;
 }
 
-.footer-text-strook {
+.footer__text__strook {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
-.footer-contact-text {
+.footer__contact__text {
   display: flex;
   word-spacing: 30px;
 }
