@@ -38,19 +38,19 @@ body {
   margin: auto;
 }
 
-.container__banner {
+.banner__container {
   background-color: #fbbb00;
   padding: 250px 0px 250px 0px;
 }
 /* end landdingspage */
 
 /* about */
-.container__headers {
+.headers__container {
   font-size: 24px;
   margin-top: 48px;
 }
 
-.container__width {
+.width__container {
   width: 50%;
 }
 
@@ -58,18 +58,19 @@ p {
   font-size: 16px;
 }
 
-.container__color__yellow{
-  color: #fbbb00;
+
+.container--color-red {
+  color: #ec7243;
 }
 
-.container__color__red {
-  color: #ec7243;
+.container--color-yellow{
+  color: #fbbb00;
 }
 /* end about */
 
 
 /* cases */
-.container__cases {
+.cases__container {
   font-size: 170px;
   text-align: left;
   margin-top: -105px;
@@ -129,7 +130,7 @@ p {
   width: 100%;
 }
 
-.container__video {
+.video__container{
   display: flex;
   justify-content: center;
 }
@@ -140,7 +141,7 @@ p {
   display: flex;
 }
 
-.container__geelvlak {
+.geelvlak__container {
   padding: 1em;
   background-color: #fbbb00;
   width: 60%;
@@ -149,7 +150,7 @@ p {
   color: white;
 }
 
-.container__geelvlak p {
+.geelvlak__container p {
   padding-top: 1em;
 }
 
@@ -165,12 +166,12 @@ p {
   margin-left: -128px;
 }
 
-.footer__text__strook {
+.footer__text-strook {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
-.footer__contact__text {
+.footer__contact-text {
   display: flex;
   word-spacing: 30px;
 }
