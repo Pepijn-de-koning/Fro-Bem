@@ -17,8 +17,15 @@ body {
   margin-top: -400px;
 }
 
+.balk {
+  margin-top: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
 .cases-balk {
-  margin-top: 110px;
+  margin-top: 5px;
   float: right;
 }
 /* end figuren */
