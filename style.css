@@ -13,7 +13,7 @@ body {
 /* end overall */
 
 /* figuren */
-.body__figuren {
+.header__figuren {
   margin-top: -400px;
 }
 
@@ -38,45 +38,45 @@ body {
   margin: auto;
 }
 
-.banner__container {
+.header {
   background-color: #fbbb00;
   padding: 250px 0px 250px 0px;
 }
 /* end landdingspage */
 
 /* about */
-.headers__container {
+.teksten__header {
   font-size: 24px;
   margin-top: 48px;
 }
 
-.width__container {
+.teksten {
   width: 50%;
 }
 
-p {
+.teksten__paragraafen {
   font-size: 16px;
 }
 
 
-.container--color-red {
+.red {
   color: #ec7243;
 }
 
-.container--color-yellow{
+.yellow{
   color: #fbbb00;
 }
 /* end about */
 
 
 /* cases */
-.cases__container {
+.cases__header {
   font-size: 170px;
   text-align: left;
   margin-top: -105px;
 }
 
-.cases-imgs {
+.cases {
   display: grid;
   grid-template-areas:
     "pic1 pic1 pic2 pic2 pic3 pic3"
@@ -124,44 +124,47 @@ p {
 
 
 /* video */
-.video__section {
+.video__header {
+  font-size: 170px;
+  text-align: left;
+  margin-top: -105px;
+}
+
+.video-section {
   background-image: url("images/background.png");
   padding: 50px 0px 50px 0px;
   width: 100%;
 }
 
-.video__container{
+.video-section__container{
   display: flex;
   justify-content: center;
 }
 /* end video */
 
 /* footer */
-.container__footer {
+.footer {
   display: flex;
 }
 
-.geelvlak__container {
-  padding: 1em;
+.footer__geelvlak {
   background-color: #fbbb00;
-  width: 60%;
-  max-height: 254px;
   display: grid;
   color: white;
+  width: 1500px;
+  margin-left: -400px;
 }
 
-.geelvlak__container p {
+.footer__geelvlak p {
   padding-top: 1em;
 }
 
 .footer__text {
-  padding-top: 3em;
-  padding-left: 5%;
   max-width: 30%;
   min-width: 160px;
 }
 
-.klein__logo {
+.footer__logo {
   height: 254px;
   margin-left: -128px;
 }
@@ -169,10 +172,10 @@ p {
 .footer__text-strook {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin-left: -95px;
 }
 
 .footer__contact-text {
-  display: flex;
   word-spacing: 30px;
 }
 /* End Footer */
