@@ -17,11 +17,9 @@ body {
   margin-top: -400px;
 }
 
-.bosy__balk {
-  margin-top: 10px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
+.cases-balk {
+  margin-top: 110px;
+  float: right;
 }
 /* end figuren */
 
@@ -70,7 +68,7 @@ body {
 
 
 /* cases */
-.cases__header {
+.cases-header {
   font-size: 170px;
   text-align: left;
   margin-top: -105px;
